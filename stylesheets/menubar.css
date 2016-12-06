@@ -1,0 +1,23 @@
+/*.menubar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 59px;
+  padding: 20px;
+}
+
+.logo {
+  opacity: .3;
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+}
+*/
