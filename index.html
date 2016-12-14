@@ -11,6 +11,7 @@
     <meta property="og:url" content="http://folio.hack.exchange">
     <meta property="og:title" content="Folio — своё портфолио своими руками">
     <meta property="og:description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
+    <meta property="og:image" content="/images/share.png">
 
     <link rel="stylesheet" href="stylesheets/style.css">
 
@@ -23,9 +24,10 @@
   </head>
 
   <body class="mockup">
-
     <nav class="menubar">
-      <a class="logo"></a>
+      <div>
+        <a class="logo" href="index.html"></a>
+      </div>
     </nav>
 
    <section class="landingWrapper">
@@ -38,8 +40,7 @@
        <p>
          Шаблон сайта-портфолио, разработанный<br>
          командой Hæd Exchange для обучения основам<br>
-         веб-вёрстки в рамках образовательного <br class="compact">
-         проекта<br class="full">
+         веб-вёрстки в рамках образовательного проекта<br>
          Hack Exchange.
        </p>
 
@@ -49,8 +50,8 @@
     <figure class="mockup" id="mockup1"></figure>
   </section>
 
-    <section class="mainSection right">
-      <section>
+  <section class="mainSection right">
+    <section>
       <h2>
         Всё необходимое<br>
         в одном шаблоне.
@@ -61,12 +62,12 @@
         дополнения остаются за вами.
       </p>
       <figure id="pattern"></figure>
-      </section>
-    <div class="mockups">
+    </section>
+
     <figure class="mockup" id="mockup2_1"></figure>
     <figure class="mockup" id="mockup2_2"></figure>
     <figure class="mockup" id="mockup2_3"></figure>
-    </div>
+
   </section>
 
   <section class="mainSection left">
@@ -77,8 +78,7 @@
       </h2>
       <p>
         Шаблон хорошо смотрится на компьютерах,<br>
-        планшетах и смартфонах. Не достаёт только <br class="compact">
-        версий<br class="full">
+        планшетах и смартфонах. Не достаёт только версий<br>
         для телефизора и часов.
       </p>
 
@@ -97,21 +97,25 @@
       <p>
         Вы можете обучаться самостоятельно по исходному коду проекта,<br>
         выложенному на GitHub, или записаться на курс “Основы<br>
-        веб-вёрстки с Захаром Днём” на Hack Exchange.</p>
+        веб-вёрстки с Захаром Днём” на Hack Exchange.
+      </p>
 
-      <nav class="btns">
-         <a class="btn large" href="http://lessons.hack.exchange" target="_blank">Курс на Hack Exchange</a>
-         <a class="btn small" href="https://github.com/thecureq/HSEDC2016-Folio-thecureq" target="_blank">Исходный код на GitHub</a>
+      <nav>
+         <a class="btn" href="http://lessons.hack.exchange" target="_blank">Курс на Hack Exchange</a>
+         <a class="link" href="https://github.com/thecureq/HSEDC2016-Folio-thecureq" target="_blank">Исходный код на GitHub</a>
       </nav>
-
     </section>
 
   <footer>
     <p>Пожалуйста, поделитесь знаниями с друзьями</p>
-    <div class="social-likes social-likes_single" data-single-title="Share">
+    <div class="social-likes social-likes_single" data-url="https://github.com/thecureq/HSEDC2016-Folio-thecureq" data-single-title="Поделиться">
+      <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+      <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+      <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+    </div>
   </footer>
 
    </section>
   </section>
-  </body>
+ </body>
 </html>

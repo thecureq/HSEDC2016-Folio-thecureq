@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 1180px) {
   .menubar {
-    opacity: .5;
     height: 41px;
     padding: 2px;
   }
