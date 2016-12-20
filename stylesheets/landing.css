@@ -229,7 +229,7 @@ body.landing .menubar div {
   }
 
   .mainSection section {
-    width: 342px;
+    width: 368px;
   }
 
   .mainSection section h2 {
@@ -251,7 +251,7 @@ body.landing .menubar div {
 
   .mainSection.right section {
     top: 137px;
-    right: 193px;
+    right: 165px;
   }
 
   .mainSection.center section {
@@ -262,7 +262,7 @@ body.landing .menubar div {
   .mainSection section figure {
     width: 22px;
     height: 3px;
-    margin-top: 16px;
+    margin-top: 42px;
   }
 
   .mainSection.center section nav {
@@ -344,7 +344,7 @@ body.landing .menubar div {
     }
 
     .mainSection section {
-      width: 339px;
+      width: 370px;
       top: 137px;
     }
 
@@ -353,7 +353,7 @@ body.landing .menubar div {
     }
 
     .mainSection.right section {
-      right: 152px;
+      right: 122px;
     }
 
     .mainSection.center section {
