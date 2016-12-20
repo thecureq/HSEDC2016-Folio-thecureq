@@ -1,27 +1,35 @@
 .btn {
   display: inline-block;
-  width: 300px;
-  height: 50px;
   background-color: rgb(102, 255, 226);
-  font-family: 'PT Sans Caption', sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 50px;
   color: black;
   text-decoration: none;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+
+
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .link {
   display: block;
-  /*width: 250px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 16px;*/
   color: white;
-  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
 }
 
-.link:hover {
-  text-decoration: none;
+@media screen and (max-width: 1179px) {
+  .btn {
+    width: 214px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+  }
+
+  .link {
+    width: 100%;
+    font-size: 13px;
+  }
 }
